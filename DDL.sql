@@ -107,7 +107,7 @@ ENGINE = InnoDB;
 DROP TABLE IF EXISTS `copa_do_mundo`.`jogadores` ;
 
 CREATE TABLE IF NOT EXISTS `copa_do_mundo`.`jogadores` (
-  `id_jogador` INT NOT NULL AUTO_INCREMENT,
+  `id_jogador` INT NOT NULL,
   `nome` VARCHAR(200) NOT NULL,
   `n_camisa` INT NOT NULL,
   `n_gols` INT NULL DEFAULT 0,
